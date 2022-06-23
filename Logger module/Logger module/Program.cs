@@ -6,6 +6,7 @@ namespace Logger_module
     {
         public static void Main(string[] args)
         {
+            Starter starter = new Starter();
             Starter.Start();
             Console.ReadKey();
         }

@@ -17,6 +17,12 @@ namespace Logger_module
         {
         }
 
+        /// <summary>
+        /// Gets or sets instance of class (used in deserialization).
+        /// </summary>
+        /// <value>
+        /// LogsCounter variable.
+        /// </value>
         public ILogsCounter LogsCounter { get; set; }
 
         public string FolderPath { get; set; } = "D:\\Study\\alevel";

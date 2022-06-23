@@ -12,12 +12,10 @@ namespace Logger_module
 {
     internal class BackupConfig
     {
-        public void Serialization()
-        {
-            var json = JsonConvert.SerializeObject(new LogsCounter());
-            File.WriteAllText("config.json", json);
-        }
-
+        /// <summary>
+        /// Deserialization of config.json into LogsCounter class instance.
+        /// </summary>
+        /// <returns>LogsCounter class instance.</returns>
         public LogsCounter Deserialization()
         {
             string startupPath = "D:\\Учеба\\A-LEVEL\\.NET C#\\M3P4HW\\Logger module\\Logger module\\config.json";
