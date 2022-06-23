@@ -6,7 +6,8 @@ namespace Logger_module
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Starter.Start();
+            Console.ReadKey();
         }
     }
 }
